@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+:root{
+    --title-color: #272727;
+    --paragraph-color: #7D7D7D;
+    --button-color: #E55473;
+    --bg-color: #FCEEF1;
+    --primary-color: #FFFFFF;
+    --fix-width: 1536px;
+    --secondary-title-size: 40px;
+    --para-font-size: 18px;
+    --button-font-size: 20px;
+    --anchor-font-size: 24px;
+    --title-font-weight: 900;
+}
+
+/* common styles */
+.btn{
+    color: var(--primary-color);
+    background-color: var(--button-color);
+    font-size: var(--button-font-size);
+    border: none;
+    border-radius: 8px;
+    padding: 15px 25px;
+}
+
+/* banner section starts here */
+.banner-section{
+    background-color: var(--bg-color);
+}
+.banner-container{
+    max-width: var(--fix-width);
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+.banner-content h1{
+    font-size: 80px;
+    font-weight: var(--title-font-weight);
+    color: var(--title-color);
+}
+.banner-content p{
+    font-size: var(--para-font-size);
+    color: var(--paragraph-color);
+}
+.banner-container img{
+    width: 50%;
+    height: 600px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1536px) {
+    :root{
+        --secondary-title-size: 40px;
+        --para-font-size: 17px;
+        --button-font-size: 18px;
+        --anchor-font-size: 24px;
+        --title-font-weight: 900;
+    }
+
+    /* common styles */
+    .btn{
+        font-size: var(--button-font-size);
+        padding: 12px 20px;
+    }
+
+    /* banner section starts here */
+    .banner-container{
+        max-width: 100%;
+        padding: 0px 80px;
+    }
+    .banner-content h1{
+        font-size: 60px;
+    }.banner-content p{
+        font-size: var(--para-font-size);
+    }
+    .banner-container img{
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    :root{
+        --secondary-title-size: 40px;
+        --para-font-size: 16px;
+        --button-font-size: 16px;
+        --anchor-font-size: 24px;
+        --title-font-weight: 900;
+    }
+
+    /* common styles */
+    .btn{
+        font-size: var(--button-font-size);
+        padding: 10px 20px;
+    }
+
+    /* banner section starts here */
+    .banner-container{
+        padding: 0px 60px;
+    }
+    .banner-content h1{
+        font-size: 50px;
+    }.banner-content p{
+        font-size: var(--para-font-size);
+    }
+    .banner-container img{
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    :root{
+        --secondary-title-size: 40px;
+        --para-font-size: 15px;
+        --button-font-size: 15px;
+        --anchor-font-size: 24px;
+        --title-font-weight: 900;
+    }
+
+    /* common styles */
+    .btn{
+        font-size: var(--button-font-size);
+        padding: 10px 20px;
+    }
+
+    /* banner section starts here */
+    .banner-container{
+        padding: 0px 30px;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }.banner-content p{
+        font-size: var(--para-font-size);
+    }
+    .banner-container img{
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+    :root{
+        --secondary-title-size: 40px;
+        --para-font-size: 14px;
+        --button-font-size: 14px;
+        --anchor-font-size: 24px;
+        --title-font-weight: 900;
+    }
+
+    /* common styles */
+    .btn{
+        font-size: var(--button-font-size);
+        padding: 10px 20px;
+    }
+
+    /* banner section starts here */
+    .banner-container{
+        padding: 0px 20px;
+    }
+    .banner-content h1{
+        font-size: 28px;
+    }.banner-content p{
+        font-size: var(--para-font-size);
+    }
+    .banner-container img{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 639px) {
+    :root{
+        --secondary-title-size: 40px;
+        --para-font-size: 12px;
+        --button-font-size: 12px;
+        --anchor-font-size: 24px;
+        --title-font-weight: 900;
+    }
+
+    /* common styles */
+    .btn{
+        font-size: var(--button-font-size);
+        padding: 8px 18px;
+    }
+
+    /* banner section starts here */
+    .banner-container{
+        padding: 0px 20px;
+    }
+    .banner-content h1{
+        font-size: 26px;
+    }.banner-content p{
+        font-size: var(--para-font-size);
+    }
+    .banner-container img{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 575px) {
+    :root{
+        --secondary-title-size: 40px;
+        --para-font-size: 9px;
+        --button-font-size: 9px;
+        --anchor-font-size: 24px;
+        --title-font-weight: 900;
+    }
+
+    /* common styles */
+    .btn{
+        font-size: var(--button-font-size);
+        padding: 6px 16px;
+    }
+
+    /* banner section starts here */
+    .banner-container{
+        padding: 0px 10px;
+    }
+    .banner-content{
+        padding: 10px;
+    }
+    .banner-content h1{
+        font-size: 18px;
+    }.banner-content p{
+        font-size: var(--para-font-size);
+    }
+    .banner-container img{
+        height: 180px;
+    }
+}
