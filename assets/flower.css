@@ -219,15 +219,15 @@ body{
     .banner-container{
         padding: 0px 10px;
     }
-    .banner-content{
+    /* .banner-content{
         padding: 10px;
-    }
+    } */
     .banner-content h1{
         font-size: 18px;
     }.banner-content p{
         font-size: var(--para-font-size);
     }
     .banner-container img{
-        height: 180px;
+        height: 200px;
     }
 }
