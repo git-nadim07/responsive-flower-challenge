@@ -228,6 +228,7 @@ body{
         font-size: var(--para-font-size);
     }
     .banner-container img{
+        width: 40%;
         height: 200px;
     }
 }
